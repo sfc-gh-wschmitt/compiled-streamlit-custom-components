@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 # Function to download and extract a package from PyPI
-def fetch_package(package_name, target_dir="downloaded_package"):
+def fetch_package(package_name, target_dir="component"):
     # Ensure the target directory exists
     os.makedirs(target_dir, exist_ok=True)
     # Step 1: Use pip to download the package
